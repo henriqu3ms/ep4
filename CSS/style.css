@@ -1,4 +1,40 @@
 body{
-    background-color: black ;
+    background-color: #964b00;
+    color: black;
+    display: grid;
+    grid-template-areas: 
+    "cabe cabe cabe"
+    "secu prin prin"
+    "roda roda roda"
+    ;
+}   
+
+.cabecalho{
+    display: grid;
+    justify-content: center;
+    margin: left 5%;
+    align-items: center;
+}
+
+
+
+.principal{
+    display: grid;
+}
+
+.scundaria{
+    display: grid;
+
+}
+
+.rodape{
+    display: grid;
+}
+
+.menu{
+    display: inline;
+    position: relative;
+    padding-left: 20px;
+    font-size: large;
 
 }
