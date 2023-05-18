@@ -29,7 +29,12 @@ body{
 
 .rodape{
     display: grid;
+    color: white;
+    height: 100px;
+    position: relative;
+    background-image: liner-gradient( to right, black, white );
 }
+
 
 .menu{
     display: inline;
@@ -38,3 +43,15 @@ body{
     font-size: large;
 
 }
+
+
+
+.superior{
+    color:black;
+    border: 3px solid whitesmoke;
+    padding: 4px 8px;
+    background-color: #783c00;
+    transition: 3ms;
+    border-radius: 7px;
+}
+
