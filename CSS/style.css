@@ -72,6 +72,11 @@ body{
     width: 98%;
 }    
 
+#prin h4 {
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
 #prin p{
     margin-left: 5%;
     margin-right: 5%;
