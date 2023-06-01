@@ -1,66 +1,70 @@
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0; /*Altera o valor da margem  */ 
+    padding: 0; /*Altera o espaçamento entre os elementos */
 }
+/* corpo */
 body{
-    background-image: url(https://www.designi.com.br/images/preview/10467126.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url(https://www.designi.com.br/images/preview/10467126.jpg); /*Plano de fundo */
+    background-size: cover; /*Ajustar a proporção da imagem, deixando ela na sua proporção original */
+    
 }
 .container{
     display: grid;
-    height: 100vh;
-    grid-template-columns: 0.5fr 1.3fr 1.2fr 1.1fr;
-    grid-template-rows: 0.2fr 0.2fr 3.4fr 0.4fr;
-    grid-template-areas: 
+    height: 100vh; /*Altera a altura do elemento */
+    grid-template-columns: 0.4fr auto 1.2fr 1.1fr; /*Define a quantidade de colunas */
+    grid-template-rows: 0.2fr auto auto 0.4fr; /*Define a quantidade de linhas */
+    grid-template-areas: /*Define as areas  */
     "cabe cabe cabe cabe"
     "secun prin prin prin"
     "secun prin prin prin"
     "roda roda roda roda";
-    grid-gap: 0.5em;
+    
     
 
 }
-
+/*cabecalho */
 #cabe{
     grid-area: cabe;
     display: flex;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-    background-color: #783c00;
-    border-radius: 0.8em;
+    width: 100%; /*Altera o tamnha do cabecalho */
+    align-items: center; /*Os itens ficaram alinhados no centro do cabecalho */
+    justify-content: center; /*Alinha os items de forma horizontal */
+    background-color: #783c00; /*Altera a cor de fundo do cabecalho */
+    border-radius: 0.8em; /*Deixa a borda com um formato mais arredondado */
+    position: fixed; /*Altera a posicao do cabecalho para fixa */
 }
 
 #cabe img{
-    width: 8rem;
-    padding-right: 60rem ;
+    width: 8rem; /*Altera o tamanho da imagem */
+    padding-right: 60rem ; /*Altera o espaçamento do lado direito */
 }
 
 #menu a{
-    display: inline;
-    text-align: center;
-    font-size: large;
-    color: black;
-    text-decoration: none;
-    border: 2px solid whitesmoke;
-    padding: 4px 8px ;
-    background-color: bisque;
-    transition: 4ms;
-    border-radius: 8px;
-    margin-left: 20px;
+    display: inline; 
+    text-align: center; /*As palavras ficaram alinhadas no centro */
+    font-size: large; /*A fonte será larga */
+    color: black; /*Altera a cor das letras */
+    text-decoration: none; 
+    border: 2px solid whitesmoke; /*Altera a borda  */
+    padding: 4px 8px ; /*Altera o espaçamento entre os itens */
+    background-color: bisque; /*Altera a cor de fundo */
+    transition: 4ms; /*A alteração o tempo de transicao da mudanca de pagina */
+    border-radius: 8px; /*Deixa a borda com um formato que arredondado */
+    margin-left: 20px; /*Altera o espaçamento do lado esquerdo */
 }
 
 #prin{ 
     grid-area: prin;
     display: grid;
-    text-align: justify;
-    background-color: bisque;
-    border-radius: 0.8em;
-    margin-bottom: 1%;   
-    margin-top: 1%;
-    margin-right: 0.5%;
-    line-height: 1.2;
+    text-align: justify; /*Os textos serão justificados  */
+    background-color: bisque; /*Altera a cor de fundo */
+    border-radius: 0.8em; /*Deixa a borda com um formato mais arredondado */
+    margin-bottom: 10px;  /*Altera a quantidade de espaco vazio abaixo */ 
+    margin-top: 9%; /*Altera a quantidade de espaco vazio na parte de cima */
+    margin-right: 5%; /*Altera a quantidade de espaco vazio no lado direito */
+    line-height: 1.2; /*Altera a altura de linha */
+    width: 99%; /*Altera o tamanho do elemento */
+    
 }
 
 #prin h1{
@@ -69,55 +73,88 @@ body{
     letter-spacing: 2px;
     font-family: cursive;
     padding-top: 20px;
-    width: 98%;
-}    
+    padding-bottom: 5%;
+    width: 98%; /*Alter o tamanho do elemento */
+    
+}  
 
-#prin h4 {
-    padding-left: 1%;
+#prin h2{
+    padding-left: 5%;
+    padding-bottom: 1%;
+
+}
+
+#prin h3{
+    padding-left: 5%;
 }
 
 #prin p{
-    margin-left: 5%;
+    margin-left: 3%;
     margin-right: 5%;
+    padding-bottom: 6%;
+    padding-top: 1%;
     font-size: large;
+}
+
+#prin img{
+    width: 35%; /*Altera o tamanho da */
+    padding-left: 31%;
+    padding-bottom:35px;
 }
 
 #secun{
     grid-area: secun;
     display: grid;
-    text-align: justify;
-    background-color: antiquewhite;
-    border-radius: 0.8em;
-    margin-bottom: 7%;
-    margin-top: 7%;
-    margin-left: 4%;
+    text-align: justify; /*o texto tera a mesma proporção */
+    background-color: antiquewhite; /*Altera a cor de fundo  */
+    border-radius: 0.8em; /*A borda tera um formato mais arredondado  */
+    
+    margin-top: 146px;
+    margin-left: 5px;
+    position: fixed; /*A posição do aside sera fixa */
+    height: 77%; /*Altera a altura do elemento */
+    width: 14%; /*Altera o tamanho do elemento  */ 
 }
+    
 
 #secun h3{
-    text-align: center;
+    text-align: center; /*O centro ficara alinhado no centro */
     font-size: large;
     padding-top: 14px;
+}
+
+#secun h5{
+    text-align: center; /*O texto ficara alinhado no centro  */
 }
 
 #secun p{
     margin-left: 5%;
     margin-right: 5%;
-    padding-bottom: 350px;
+    padding-bottom: 35px;
+    
+}
+
+#secun img{
+    width: 14rem; /*Altera o tamnaho do elemento */
+    padding-left: 8%;
 }
 
 #roda{
-    background: linear-gradient(to right, #a95e13, #d45e00);
+    background: linear-gradient(to right, #a95e13, #d45e00); /*A cor de fundo terá um degrade */
     grid-area: roda;
     border-radius: 0.8em;
+    position: fixed;
+    width: 100%; /*Altera o tamanho dos elementos */
+    bottom: 0;
 }
 
 #roda h3{
     text-align: center;
     font-size: large;
-    padding: 10px;
+    padding: 10px; 
 }
 
 #roda p{
-    text-align: center;
-    padding-top: 5px;
+    text-align: center; /*As palavras ficaram alinhados no centro */
+    padding-top: 5px; /*Altera o espaçamento na parte de cima */
 }
