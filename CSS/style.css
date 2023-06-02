@@ -4,7 +4,7 @@
 }
 /* corpo */
 body{
-    background-image: url(https://www.designi.com.br/images/preview/10467126.jpg); /*Plano de fundo */
+    background-image: url(https://a-static.besthdwallpaper.com/clearly-photographed-horse-among-blurred-chess-pieces-wallpaper-2048x1536-96236_26.jpg); /*Plano de fundo */
     background-size: cover; /*Ajustar a proporção da imagem, deixando ela na sua proporção original */
     
 }
@@ -68,28 +68,31 @@ body{
 }
 
 #prin h1{
-    text-align: center;
-    font-size: x-large;
-    letter-spacing: 2px;
-    font-family: cursive;
-    padding-top: 20px;
-    padding-bottom: 5%;
+    text-align: center; /*Deixa os textos alinhados ao centro*/
+    font-size: x-large; /*Altera a fonte das letras*/
+    letter-spacing: 2px; /*Altera um espaçamento entre as palavras*/
+    font-family: cursive; /*Altera a fonte das letras*/
+    padding-top: 20px; /* Altera o espaçamento na parte de cima  */
+    padding-bottom: 5%; /* Altera o espaçamento na parte de baixa*/
     width: 98%; /*Alter o tamanho do elemento */
     
 }  
 
 #prin h2{
-    padding-left: 5%;
+    padding-left: 5%; /* Altera o espaçamento do lado esquerdo*/
     padding-bottom: 1%;
-
+    font-family: cursive;
 }
 
-#prin h3{
+#prin h4{
     padding-left: 5%;
+    font-family: cursive;
 }
+
+
 
 #prin p{
-    margin-left: 3%;
+    margin-left: 3%;/**/
     margin-right: 5%;
     padding-bottom: 6%;
     padding-top: 1%;
@@ -121,10 +124,12 @@ body{
     text-align: center; /*O centro ficara alinhado no centro */
     font-size: large;
     padding-top: 14px;
+    font-family: cursive;
 }
 
 #secun h5{
-    text-align: center; /*O texto ficara alinhado no centro  */
+    text-align: center; /*O texto ficara alinhado no centro */
+    font-family: cursive;
 }
 
 #secun p{
@@ -133,25 +138,26 @@ body{
     padding-bottom: 35px;
     
 }
-
+/**/
 #secun img{
     width: 14rem; /*Altera o tamnaho do elemento */
     padding-left: 8%;
 }
-
+/**/
 #roda{
     background: linear-gradient(to right, #a95e13, #d45e00); /*A cor de fundo terá um degrade */
     grid-area: roda;
     border-radius: 0.8em;
-    position: fixed;
+    position: fixed; 
     width: 100%; /*Altera o tamanho dos elementos */
     bottom: 0;
 }
 
 #roda h3{
-    text-align: center;
-    font-size: large;
-    padding: 10px; 
+    text-align: center; /* Deixa os textos no centro*/
+    font-size: large; /* Altera o tamanho da fonte das letras*/
+    padding: 10px; /* Altera o espaçamento entre os elementos*/
+    font-family: cursive;  
 }
 
 #roda p{
